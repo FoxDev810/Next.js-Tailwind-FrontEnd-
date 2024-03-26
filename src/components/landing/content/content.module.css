@@ -1,0 +1,23 @@
+.main {
+  @apply mt-[63px] xl:mt-[10px] text-center z-10 relative;
+}
+
+.section_entutaistic {
+  font-family: "Open Sans", sans-serif;
+  opacity: 1;
+  @apply font-normal text-[37px] xl:text-[50px] 2xl:text-[62px] text-[#FFFFFF] shadow-[#000000];
+}
+
+.section_build {
+  font-family: "Open Sans", sans-serif;
+  @apply font-normal text-[36px] xl:text-[40px] 2xl:text-[52px] text-[#FFFFFF];
+}
+
+
+.section_logo {
+  @apply flex  justify-center text-center;
+}
+
+.section_logoimg {
+  @apply w-[150px] h-[150px] xl:w-[130px] xl:h-[100px];
+}

@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Sedgwick+Ave+Display&display=swap');
+
+.section_logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section_logoimg {
+    height: 100px;
+}
+
+.login-text {
+    /*font-family: "Julee", cursive;*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.login-text-error {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    width: 311px;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-text-error {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 27px;
+        width: 95%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .social-icons {
+        justify-content: center;
+        margin-left: 0px !important;
+    }
+
+    .login-divider {
+        display: none;
+    }
+
+    .col-lg-6{
+        width: auto !important;
+        margin-top: 24px !important;
+    }
+
+    .login-text{
+        width:300px;
+    }
+
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    column-gap: 38px;
+}
+
+.col-lg-6 {
+
+    width: 495px;
+}
+
+.login_with,
+.login_instead {
+    display: flex;
+    align-items: center;
+    height: 38px;
+    column-gap: 27px;
+}
+
+.login-line {
+    border: 1px solid #7C7C7C;
+    width: 115px;
+    margin: 0 10px;
+}
+
+.login-divider {
+    position: absolute;
+    height: 138px;
+    left: 50%;
+    border-left: 2px solid #7C7C7C;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 72px;
+
+}
+
+.social-icon {
+    width: 48.51px;
+    height: 48.51px;
+    border-radius: 50%;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle {
+    width: 39px;
+    height: 39px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #C4C4C4 0.03%, #D1D1D1 29.11%, #F2F2F2 82.51%, #FFFFFF 100.06%);
+}
+
+.social-icon svg {
+    color: #10618B;
+    font-size: 23.66px;
+    line-height: 20.31px;
+}
+
+.login_form_type {
+    width: 310px;
+    height: 50px;
+    padding: 0px 10px;
+    margin: 8px 0;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /*font-family: "Julee", cursive;*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+
+}
+
+.login_pass_type {
+    width: 310px;
+    height: 50px;
+    padding: 0px 10px;
+    margin: 8px 0;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /*font-family: "Julee", cursive;*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.logo {
+    height: 50px;
+    padding: 0px 10px;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    background-color: white;
+
+}
+
+.logoUser {
+    height: 50px;
+    padding: 0px 10px;
+    border: 0px solid #ABABAB;
+    border-radius: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    background-image: url('/images/landing/new_user_registration_bg.svg');
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+    margin-left: 11px;
+    margin-top: 20px;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+    margin-left: 11px;
+}
+
+.logo img {
+    width: 29.58px;
+    height: 42px;
+}
+
+.logoUser img {
+    width: 29.58px;
+    height: 42px;
+}
+
+.submitbutton {
+    display: flex;
+    justify-content: right;
+    margin-right: 62px;
+
+}
+
+.submitbuttonbtn {
+    padding: 3px 20px;
+    margin: 8px 0;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /*font-family: "Julee", cursive;*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    background: black;
+    color: white;
+    text-align: right;
+    font-size: 18px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+.footer {
+    position: fixed;
+    bottom: 20px;
+    margin-left: 10px;
+}
+
+@media (min-width: 1280px) {
+    .footer {
+        margin-left: 44px;
+    }
+}
+
+.footer_section_text {
+    /*font-family: "Sedgwick Ave Display", cursive;*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 35px;
+}
+
+.footer_section_text p{
+    margin-bottom: 4px;
+}
+.footer_section_social_btn {
+    display: flex;
+    column-gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.footer_section_social_btn svg{
+    padding: 6px;
+}
+
+.footer_section_social_btn a {
+    border-radius: 9999px; /* Use a large value to get a rounded shape */
+    background-color: black;
+    padding: 2px; /* Adjust as needed */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.white-icon {
+    color: white;
+}

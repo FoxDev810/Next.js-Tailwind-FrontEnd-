@@ -1,0 +1,19 @@
+.main{
+  @apply leading-[54px] bottom-[20px] fixed ml-[10px] xl:ml-[100px];
+}
+
+
+.section_text{
+  /*font-family: "Sedgwick Ave Display", cursive;*/
+  font-family: "Open Sans", sans-serif;
+  @apply font-medium text-[#FFFFFF] text-[30px];
+}
+
+.section_social_btn {
+  @apply flex flex-row gap-x-2 items-center;
+}
+
+.section_social_btn a {
+  @apply rounded-full bg-[#000000] p-1.5 flex flex-col items-center justify-center w-[30px] h-[30px];
+}
+

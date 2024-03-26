@@ -1,0 +1,26 @@
+.main {
+  @apply pt-[22px] pr-[8px]  xl:pr-[60px] inline-block w-full;
+}
+
+.section {
+  @apply flex flex-row float-right gap-[13px];
+}
+
+.section_getstarted {
+  font-family: "Open Sans", sans-serif;
+  @apply text-[#000000] text-[16px] bg-[#FFF]  px-[20px] py-[3px] rounded-[4px];
+}
+
+.section_getstarted_btn {
+  border:0;
+}
+
+.section_social_btn {
+  @apply flex flex-row gap-x-2 items-center;
+}
+
+
+.section_social_btn a {
+  border: 1px solid #FFFFFF;
+  @apply rounded-full bg-[#D9D9D9] p-1.5 flex flex-col items-center justify-center w-[30px] h-[30px];
+}
