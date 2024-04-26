@@ -1,22 +1,18 @@
-import { Metadata } from "next";
+"use client";
+import { useState } from "react";
 import Header from "@/components/landing/head";
 import Content from "@/components/landing/content";
 import Footer from "@/components/landing/footer";
-
-export const metadata: Metadata = {
-  title:
-    "Next.js E-commerce Dashboard | TailAdmin - Next.js Dashboard Template",
-  description: "This is Myproject Home",
-};
+import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
-    <div className="bg-landing h-dvh bg-cover bg-fixed bg-bottom bg-no-repeat">
-      <Header />
+    <div className="h-dvh">
+      <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+      <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       {/*main content section*/}
-      <main className="flex min-w-full flex-col">
-        <Content />
-      </main>
+      <Content />
       {/*footer section*/}
       <Footer />
     </div>
